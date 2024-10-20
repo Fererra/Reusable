@@ -14,7 +14,7 @@ const range = (start, end) => {
 
 // Tests from 4-range.test
 // console.log(range(0, 1)); // Output: [0, 1]
-// console.log(range(0, 5)); // Output: [0, 1, 2, 3, 4, 5, 6]
+// console.log(range(0, 5)); // Output: [0, 1, 2, 3, 4, 5]
 // console.log(range(0, 6)); // Output: [0, 1, 2, 3, 4, 5, 6]
 // console.log(range(1, 3)); // Output: [1, 2, 3]
 // console.log(range(-2, 2)); // Output: [-2, -1, 0, 1, 2]
