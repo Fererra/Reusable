@@ -31,6 +31,4 @@ const calculate = () => {
   return array;
 };
 
-// console.log(calculate()); // Output: [0, 1, 6, 18, 40, 75, 126, 196, 288, 405]
-
 module.exports = { square, cube, average, calculate };

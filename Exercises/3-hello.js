@@ -6,6 +6,4 @@ const hello = (name) => {
     console.log(`Hello ${name}!`); 
 };
 
-// hello('Marcus'); // Output: Hello Marcus!
-
 module.exports = { hello };

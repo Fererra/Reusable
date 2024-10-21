@@ -13,6 +13,4 @@ const phonebook = {
 
 const findPhoneByName = (name) => phonebook[name];
 
-// console.log(findPhoneByName('Marcus')); // Output: +380445554433
-
 module.exports = { phonebook, findPhoneByName };

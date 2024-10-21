@@ -11,12 +11,8 @@ const fn = () => {
     const obj1 = { name: 'testName' };
     let obj2 = { name: 'testName' };
 
-    // console.log(obj1, obj2);
-    
     obj1.name = 'Mykyta';
     obj2.name = 'Mykyta';
-
-    // console.log(obj1, obj2);
     
     /* The result of obj1 will be the same as obj2
     The keyword "const" indicates that the variable cannot be reassigned, 
@@ -27,9 +23,6 @@ const fn = () => {
     // Assigning a new object
     obj2 = { name: 'testName Mykyta' };
 
-    // console.log(obj1, obj2);
 };
-
-// fn()
 
 module.exports = { fn };
