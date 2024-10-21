@@ -17,7 +17,9 @@ const phonebook = [
 const findPhoneByName = (name) => {
     for (const obj of phonebook) {
       if (obj.name === name) return obj.phone;
-    }
+    };
+
+    return 'Name not found';
 };
 
 module.exports = { phonebook, findPhoneByName };
